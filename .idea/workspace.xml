@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87acf152-24d9-47a1-8ef4-eec3c6eb2665" name="Changes" comment="" />
+    <list default="true" id="87acf152-24d9-47a1-8ef4-eec3c6eb2665" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cw1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cw1/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ES8nbf0IdbVLGDUOjLHu14cY97" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -13,14 +30,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Employees">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cw1.Employee" />
+      <module name="Coursework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cw1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Employees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cw1.Employees" />
+      <module name="Coursework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cw1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Coursework1" />
@@ -30,6 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Employees" />
+        <item itemvalue="Application.Employee" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -37,11 +82,35 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="87acf152-24d9-47a1-8ef4-eec3c6eb2665" name="Changes" comment="" />
       <created>1662577796316</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662577796316</updated>
+      <workItem from="1662577799730" duration="405000" />
+      <workItem from="1662648781667" duration="20000" />
+      <workItem from="1662743325609" duration="467000" />
+      <workItem from="1662815640503" duration="10743000" />
+      <workItem from="1662829802039" duration="2874000" />
+      <workItem from="1662833534968" duration="2519000" />
+      <workItem from="1662882886295" duration="17392000" />
+      <workItem from="1662914673301" duration="16504000" />
     </task>
+    <task id="LOCAL-00001" summary="Начальный коммит">
+      <created>1662578029109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662578029109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Начальный коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начальный коммит" />
   </component>
 </project>
