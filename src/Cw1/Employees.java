@@ -80,12 +80,12 @@ public class Employees {
 
 
     public static void main(String[] args){
+
             employees[0]  = null;
             employees[0] = new Employee("Петр", "Петрович", "Петров", 1, 40_000);
             employees[1] = new Employee("Иван", "Иванович", "Иванов", 2, 30_000);
             employees[2] = new Employee("Данил", "Данилович", "Данилов", 2, 20_000);
             printAllEmployee();
-            employees[1].getSalary();
             System.out.println(getCalculateSumSalary());
             System.out.println(getEmployeeMinSalary());
             System.out.println(getEmployeeMaxSalary());
