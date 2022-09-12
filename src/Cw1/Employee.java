@@ -38,25 +38,10 @@ public class Employee {
         return id;
     }
 
-    public static int getCounter() {
-        return counter;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setMiddleName(String middleName) {
-        this.middleName = middleName;
-    }
-
-    public void setSurName(String surName) {
-        this.surName = surName;
-    }
-
     public void setDepartment(int department) {
-        if (department < 0 || department > 5)
+        if (department < 0 || department > 5) {
             throw new IllegalArgumentException(" Введено неправильное значение department");
+        }
         this.department = department;
     }
 
@@ -66,7 +51,9 @@ public class Employee {
 
 
     public Employee (String name, String middleName, String surName, int department, double salary) {
-        if (department < 0 || department > 5) throw new IllegalArgumentException(" Введено неправильное значение department");
+        if (department < 0 || department > 5) {
+            throw new IllegalArgumentException(" Введено неправильное значение department");
+        }
         this.id = ++ counter;
         this.name = name;
         this.middleName = middleName;

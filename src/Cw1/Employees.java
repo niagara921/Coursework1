@@ -1,25 +1,27 @@
 package Cw1;
 
 public class Employees {
-    public static Employee[] employees = new Employee[10];
+    private static Employee[] employees = new Employee[10];
 
-    public static void printAllEmployee() {
+    private static void printAllEmployee() {
         for (Employee employee : employees) {
             System.out.println(employee);
         }
     }
 
-    public static double getCalculateSumSalary() {
+    private static double getCalculateSumSalary() {
         double sum = 0;
         for (Employee employee : employees) {
-            if (employee == null) continue;
+            if (employee == null) {
+                continue;
+            }
             sum += employee.getSalary();
         }
         return sum;
 
     }
 
-    public static Employee getEmployeeMinSalary() {
+    private static Employee getEmployeeMinSalary() {
         double min = 0;
         int index = 0;
         for (int i = 0; i < employees.length; i++) {
@@ -31,7 +33,9 @@ public class Employees {
         }
         Employee employeeMinSalary = null;
         for (int i = index; i < employees.length; i++) {
-            if (employees[i] == null)continue;
+            if (employees[i] == null){
+                continue;
+            }
             if (employees[i].getSalary() < min) {
                 min = employees[i].getSalary();
                 employeeMinSalary = employees[i];
@@ -39,7 +43,7 @@ public class Employees {
         }
         return employeeMinSalary;
     }
-    public static Employee getEmployeeMaxSalary() {
+    private static Employee getEmployeeMaxSalary() {
         double max = 0;
         int index = 0;
         Employee employeeMaxSalary = null;
@@ -53,7 +57,9 @@ public class Employees {
         }
          employeeMaxSalary = employees[index];
         for (int i = index; i < employees.length; i++) {
-            if (employees[i] == null)continue;
+            if (employees[i] == null){
+                continue;
+            }
             if (employees[i].getSalary() > max) {
                 max = employees[i].getSalary();
                 employeeMaxSalary = employees[i];
@@ -61,20 +67,25 @@ public class Employees {
         }
         return employeeMaxSalary;
     }
-    public static double getAverageSalaryEmployee(){
+    private static double getAverageSalaryEmployee(){
         double sum = 0;
         int countEmp = 0;
         for (Employee emp : employees) {
-          if (emp == null) continue;
+          if (emp == null) {
+              continue;
+          }
           countEmp ++;
           sum += emp.getSalary();
         }
         return sum/countEmp;
     }
-    public static void printNameAllEmployee() {
+    private static void printNameAllEmployee() {
         for (Employee empl : employees) {
-            if (empl == null) continue;
-            System.out.println(empl.getSurName() + " " + empl.getName() + " " + empl.getMiddleName());
+            if (empl == null) {
+                continue;
+            }
+                System.out.println(empl.getSurName() + " " + empl.getName() + " " + empl.getMiddleName());
+
         }
     }
 

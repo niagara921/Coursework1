@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87acf152-24d9-47a1-8ef4-eec3c6eb2665" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cw1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cw1/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cw1/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cw1/Employees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,8 @@
       <workItem from="1662829802039" duration="2874000" />
       <workItem from="1662833534968" duration="2519000" />
       <workItem from="1662882886295" duration="17392000" />
-      <workItem from="1662914673301" duration="18375000" />
+      <workItem from="1662914673301" duration="18680000" />
+      <workItem from="1662966070907" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Начальный коммит">
       <created>1662578029109</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662931710580</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Курсовая работа 1">
+      <created>1662934513095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662934513095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
